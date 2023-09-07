@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
   *::after {
     box-sizing: inherit;
   }
-  * { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'}
+  * { font-family: 'sans-serif', 'Arial';}
   body{
     background-color: ${(props) => props.theme.bgColor};
     color:${(props) => props.theme.textColor};
